@@ -1,0 +1,52 @@
+.search-container {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+
+.search-input-container {
+    display: flex;
+    align-items: center;
+    background-color: #f0f0f0;
+    /* Tom de cinza claro */
+    border-radius: 25px;
+    /* Arredondado */
+    padding: 10px;
+    width: 300px;
+    /* Ajuste conforme necessário */
+}
+
+.search-input {
+    border: none;
+    background: transparent;
+    outline: none;
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    /* Para ocupar toda a largura */
+}
+
+.search-icon {
+    color: #888;
+    /* Cor do ícone */
+    margin-right: 10px;
+    /* Espaço entre ícone e input */
+}
+
+.search-button {
+    padding: 10px 15px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 25px;
+    /* Arredondado */
+    background-color: #007BFF;
+    /* Cor do botão */
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.search-button:hover {
+    background-color: #0056b3;
+    /* Cor do botão ao passar o mouse */
+}
